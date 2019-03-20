@@ -1,0 +1,24 @@
+
+buildscript {
+    repositories {
+        google()
+        jcenter()
+        
+    }
+    dependencies {
+        classpath files('libs/r8-1.4.35.jar') // https://storage.googleapis.com/r8-releases/raw/com/android/tools/r8/1.4.35/r8-1.4.35.jar
+        classpath 'com.android.tools.build:gradle:3.3.2'
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
