@@ -1,0 +1,15 @@
+# compiler: R8
+# compiler_version: 1.4.35
+# min_api: 15
+evel.io.r8apilevelbug.Foo -> a.a.a.b:
+    evel.io.r8apilevelbug.Foo$Bar bar -> b
+    boolean foo -> a
+    1:1:void triggerSerializable():0:0 -> <init>
+    1:1:void <init>():0 -> <init>
+evel.io.r8apilevelbug.Foo$1 -> a.a.a.a:
+    evel.io.r8apilevelbug.Foo this$0 -> a
+    1:1:boolean evel.io.r8apilevelbug.Foo.access$102(evel.io.r8apilevelbug.Foo,boolean):0:0 -> onTrigger
+    1:1:void onTrigger(android.hardware.TriggerEvent):0 -> onTrigger
+evel.io.r8apilevelbug.Foo$Bar -> a.a.a.b$a:
+    1:1:void <init>():0:0 -> <init>
+    1:1:void <init>(evel.io.r8apilevelbug.Foo$1):0 -> <init>
