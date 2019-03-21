@@ -1,0 +1,16 @@
+evel.io.r8apilevelbug.Foo -> evel.io.r8apilevelbug.a:
+    android.hardware.TriggerEventListener triggerEventListener -> b
+    boolean foo -> a
+    evel.io.r8apilevelbug.Foo$Bar bar -> c
+    void <init>() -> <init>
+evel.io.r8apilevelbug.Foo$1 -> evel.io.r8apilevelbug.a$1:
+    evel.io.r8apilevelbug.Foo this$0 -> a
+    void <init>(evel.io.r8apilevelbug.Foo) -> <init>
+    void onTrigger(android.hardware.TriggerEvent) -> onTrigger
+evel.io.r8apilevelbug.Foo$Bar -> evel.io.r8apilevelbug.a$a:
+    void <init>() -> <init>
+    boolean removeEldestEntry(java.util.Map$Entry) -> removeEldestEntry
+    void <init>(byte) -> <init>
+evel.io.r8apilevelbug.MainActivity -> evel.io.r8apilevelbug.MainActivity:
+    void <init>() -> <init>
+    void onCreate(android.os.Bundle) -> onCreate

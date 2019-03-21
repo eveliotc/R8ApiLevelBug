@@ -1,0 +1,226 @@
+Processing 'classes.dex'...
+Opened 'classes.dex', DEX version '035'
+Class #0            -
+  Class descriptor  : 'Level/io/r8apilevelbug/MainActivity;'
+  Access flags      : 0x0001 (PUBLIC)
+  Superclass        : 'Landroid/app/Activity;'
+  Interfaces        -
+  Static fields     -
+  Instance fields   -
+  Direct methods    -
+    #0              : (in Level/io/r8apilevelbug/MainActivity;)
+      name          : '<init>'
+      type          : '()V'
+      access        : 0x10001 (PUBLIC CONSTRUCTOR)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 1
+      insns size    : 4 16-bit code units
+      catches       : (none)
+      positions     : 
+      locals        : 
+  Virtual methods   -
+    #0              : (in Level/io/r8apilevelbug/MainActivity;)
+      name          : 'onCreate'
+      type          : '(Landroid/os/Bundle;)V'
+      access        : 0x0004 (PROTECTED)
+      code          -
+      registers     : 3
+      ins           : 2
+      outs          : 2
+      insns size    : 12 16-bit code units
+      catches       : (none)
+      positions     : 
+      locals        : 
+  source_file_idx   : -1 (unknown)
+
+Class #1            -
+  Class descriptor  : 'Level/io/r8apilevelbug/a$1;'
+  Access flags      : 0x0010 (FINAL)
+  Superclass        : 'Landroid/hardware/TriggerEventListener;'
+  Interfaces        -
+  Static fields     -
+  Instance fields   -
+    #0              : (in Level/io/r8apilevelbug/a$1;)
+      name          : 'a'
+      type          : 'Level/io/r8apilevelbug/a;'
+      access        : 0x1010 (FINAL SYNTHETIC)
+  Direct methods    -
+    #0              : (in Level/io/r8apilevelbug/a$1;)
+      name          : '<init>'
+      type          : '(Level/io/r8apilevelbug/a;)V'
+      access        : 0x10000 (CONSTRUCTOR)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 1
+      insns size    : 6 16-bit code units
+      catches       : (none)
+      positions     : 
+      locals        : 
+  Virtual methods   -
+    #0              : (in Level/io/r8apilevelbug/a$1;)
+      name          : 'onTrigger'
+      type          : '(Landroid/hardware/TriggerEvent;)V'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 3
+      ins           : 2
+      outs          : 0
+      insns size    : 6 16-bit code units
+      catches       : (none)
+      positions     : 
+      locals        : 
+  source_file_idx   : -1 (unknown)
+
+Class #2            -
+  Class descriptor  : 'Level/io/r8apilevelbug/a$a;'
+  Access flags      : 0x0010 (FINAL)
+  Superclass        : 'Ljava/util/LinkedHashMap;'
+  Interfaces        -
+  Static fields     -
+  Instance fields   -
+  Direct methods    -
+    #0              : (in Level/io/r8apilevelbug/a$a;)
+      name          : '<init>'
+      type          : '()V'
+      access        : 0x10002 (PRIVATE CONSTRUCTOR)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 1
+      insns size    : 4 16-bit code units
+      catches       : (none)
+      positions     : 
+      locals        : 
+    #1              : (in Level/io/r8apilevelbug/a$a;)
+      name          : '<init>'
+      type          : '(B)V'
+      access        : 0x11000 (SYNTHETIC CONSTRUCTOR)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 1
+      insns size    : 4 16-bit code units
+      catches       : (none)
+      positions     : 
+      locals        : 
+  Virtual methods   -
+    #0              : (in Level/io/r8apilevelbug/a$a;)
+      name          : 'removeEldestEntry'
+      type          : '(Ljava/util/Map$Entry;)Z'
+      access        : 0x0014 (PROTECTED FINAL)
+      code          -
+      registers     : 3
+      ins           : 2
+      outs          : 1
+      insns size    : 12 16-bit code units
+      catches       : (none)
+      positions     : 
+      locals        : 
+  source_file_idx   : -1 (unknown)
+
+Class #3            -
+  Class descriptor  : 'Level/io/r8apilevelbug/a;'
+  Access flags      : 0x0011 (PUBLIC FINAL)
+  Superclass        : 'Ljava/lang/Object;'
+  Interfaces        -
+  Static fields     -
+  Instance fields   -
+    #0              : (in Level/io/r8apilevelbug/a;)
+      name          : 'a'
+      type          : 'Z'
+      access        : 0x0000 ()
+    #1              : (in Level/io/r8apilevelbug/a;)
+      name          : 'b'
+      type          : 'Landroid/hardware/TriggerEventListener;'
+      access        : 0x0002 (PRIVATE)
+    #2              : (in Level/io/r8apilevelbug/a;)
+      name          : 'c'
+      type          : 'Level/io/r8apilevelbug/a$a;'
+      access        : 0x0002 (PRIVATE)
+  Direct methods    -
+    #0              : (in Level/io/r8apilevelbug/a;)
+      name          : '<init>'
+      type          : '()V'
+      access        : 0x10001 (PUBLIC CONSTRUCTOR)
+      code          -
+      registers     : 9
+      ins           : 1
+      outs          : 2
+      insns size    : 170 16-bit code units
+      catches       : 24
+        0x000b - 0x0010
+          Ljava/lang/Exception; -> 0x0011
+        0x0020 - 0x0027
+          Ljava/io/IOException; -> 0x00a3
+        0x0028 - 0x002d
+          Ljava/lang/Throwable; -> 0x0097
+          <any> -> 0x0095
+        0x002d - 0x0032
+          Ljava/lang/Throwable; -> 0x0085
+          <any> -> 0x0082
+        0x0032 - 0x003b
+          Ljava/lang/ClassNotFoundException; -> 0x007b
+          Ljava/lang/Throwable; -> 0x0085
+          <any> -> 0x0082
+        0x003b - 0x0040
+          Ljava/lang/Throwable; -> 0x006b
+          <any> -> 0x0068
+        0x0040 - 0x0048
+          Ljava/lang/Throwable; -> 0x0058
+          <any> -> 0x0055
+        0x0048 - 0x004b
+          Ljava/lang/Throwable; -> 0x006b
+          <any> -> 0x0068
+        0x004b - 0x004e
+          Ljava/lang/ClassNotFoundException; -> 0x007b
+          Ljava/lang/Throwable; -> 0x0085
+          <any> -> 0x0082
+        0x004e - 0x0051
+          Ljava/lang/Throwable; -> 0x0097
+          <any> -> 0x0095
+        0x0051 - 0x0054
+          Ljava/io/IOException; -> 0x00a3
+        0x0059 - 0x005a
+          <any> -> 0x005a
+        0x0060 - 0x0063
+          Ljava/lang/Throwable; -> 0x0067
+          <any> -> 0x0068
+        0x0064 - 0x0068
+          Ljava/lang/Throwable; -> 0x006b
+          <any> -> 0x0068
+        0x006c - 0x006d
+          <any> -> 0x006d
+        0x0073 - 0x0076
+          Ljava/lang/Throwable; -> 0x007a
+          Ljava/lang/ClassNotFoundException; -> 0x007b
+          <any> -> 0x0082
+        0x0077 - 0x007b
+          Ljava/lang/ClassNotFoundException; -> 0x007b
+          Ljava/lang/Throwable; -> 0x0085
+          <any> -> 0x0082
+        0x007c - 0x0082
+          Ljava/lang/Throwable; -> 0x0085
+          <any> -> 0x0082
+        0x0086 - 0x0087
+          <any> -> 0x0087
+        0x008d - 0x0090
+          Ljava/lang/Throwable; -> 0x0094
+          <any> -> 0x0095
+        0x0091 - 0x0095
+          Ljava/lang/Throwable; -> 0x0097
+          <any> -> 0x0095
+        0x0098 - 0x0099
+          <any> -> 0x0095
+        0x009b - 0x009e
+          Ljava/lang/Throwable; -> 0x00a2
+          Ljava/io/IOException; -> 0x00a3
+        0x009f - 0x00a3
+          Ljava/io/IOException; -> 0x00a3
+      positions     : 
+      locals        : 
+  Virtual methods   -
+  source_file_idx   : -1 (unknown)
+
